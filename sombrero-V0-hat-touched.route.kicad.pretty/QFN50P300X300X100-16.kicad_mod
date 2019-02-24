@@ -1,0 +1,74 @@
+(module QFN50P300X300X100-16 (layer F.Cu)
+    
+  (pad 0 smd rect
+    (at -1.4 -0.75 270.0)
+    (size 0.24 0.8)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 1 smd rect
+    (at -1.4 -0.25 270.0)
+    (size 0.24 0.8)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 2 smd rect
+    (at -1.4 0.25 270.0)
+    (size 0.24 0.8)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 3 smd rect
+    (at -1.4 0.75 270.0)
+    (size 0.24 0.8)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 4 smd rect
+    (at -0.75 1.4 0.0)
+    (size 0.24 0.8)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 5 smd rect
+    (at -0.25 1.4 0.0)
+    (size 0.24 0.8)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 6 smd rect
+    (at 0.25 1.4 0.0)
+    (size 0.24 0.8)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 7 smd rect
+    (at 0.75 1.4 0.0)
+    (size 0.24 0.8)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 8 smd rect
+    (at 1.4 0.75 90.0)
+    (size 0.24 0.8)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 9 smd rect
+    (at 1.4 0.25 90.0)
+    (size 0.24 0.8)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 10 smd rect
+    (at 1.4 -0.25 90.0)
+    (size 0.24 0.8)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 11 smd rect
+    (at 1.4 -0.75 90.0)
+    (size 0.24 0.8)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 12 smd rect
+    (at 0.75 -1.4 180.0)
+    (size 0.24 0.8)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 13 smd rect
+    (at 0.25 -1.4 180.0)
+    (size 0.24 0.8)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 14 smd rect
+    (at -0.25 -1.4 180.0)
+    (size 0.24 0.8)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 15 smd rect
+    (at -0.75 -1.4 180.0)
+    (size 0.24 0.8)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 16 smd rect
+    (at 0.0 0.0 0.0)
+    (size 1.68 1.68)
+    (layers F.Cu F.Mask F.Paste))  
+  (fp_line (start -1.8 -1.8) (end -1.8 1.8) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -1.8 1.8) (end 1.8 1.8) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 1.8 1.8) (end 1.8 -1.8) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 1.8 -1.8) (end -1.8 -1.8) (layer F.CrtYd) (width 0.05)))

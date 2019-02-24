@@ -1,0 +1,23 @@
+(module phoenix-combicon-mc-pkg (layer F.Cu)
+    
+  (pad 0 thru_hole circle
+    (at -1.905 -8.0 0.0)
+    (size 1.9 1.9)
+    (drill 1.2)
+    (layers *.Cu F.Mask))  
+  (pad 1 thru_hole circle
+    (at 1.905 -8.0 0.0)
+    (size 1.9 1.9)
+    (drill 1.2)
+    (layers *.Cu F.Mask))  
+  (fp_line (start -4.505 -10.2) (end -4.505 0.0) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -4.505 0.0) (end 4.505 0.0) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 4.505 0.0) (end 4.505 -10.2) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 4.505 -10.2) (end -4.505 -10.2) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -2.905 -9.0) (end -2.905 -7.0) (layer B.CrtYd) (width 0.05))  
+  (fp_line (start -2.905 -7.0) (end 2.905 -7.0) (layer B.CrtYd) (width 0.05))  
+  (fp_line (start 2.905 -7.0) (end 2.905 -9.0) (layer B.CrtYd) (width 0.05))  
+  (fp_line (start 2.905 -9.0) (end -2.905 -9.0) (layer B.CrtYd) (width 0.05))  
+  (fp_text user ">REF" (at 0.0 -9.7 0.0) (layer F.SilkS)
+    (effects (font (size 0.705555555555564 0.705555555555564) (thickness 0.10)) (justify )))  
+  (fp_line (start -4.505 0.0) (end 4.505 0.0) (layer Cmts.User) (width 0.05)))

@@ -1,0 +1,14 @@
+(module SW_B3U-1000P (layer F.Cu)
+    
+  (pad 0 smd rect
+    (at -1.7 0.0 0.0)
+    (size 0.8 1.7)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 1 smd rect
+    (at 1.7 0.0 0.0)
+    (size 0.8 1.7)
+    (layers F.Cu F.Mask F.Paste))  
+  (fp_line (start -2.0 -1.25) (end -2.0 1.25) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -2.0 1.25) (end 2.0 1.25) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 2.0 1.25) (end 2.0 -1.25) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 2.0 -1.25) (end -2.0 -1.25) (layer F.CrtYd) (width 0.05)))

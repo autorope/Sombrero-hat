@@ -1,0 +1,14 @@
+(module INDC2520X100 (layer F.Cu)
+    
+  (pad 0 smd rect
+    (at -1.15 0.0 0.0)
+    (size 0.7 1.5)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 1 smd rect
+    (at 1.15 0.0 0.0)
+    (size 0.7 1.5)
+    (layers F.Cu F.Mask F.Paste))  
+  (fp_line (start -1.5 -1.0) (end -1.5 1.0) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -1.5 1.0) (end 1.5 1.0) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 1.5 1.0) (end 1.5 -1.0) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 1.5 -1.0) (end -1.5 -1.0) (layer F.CrtYd) (width 0.05)))

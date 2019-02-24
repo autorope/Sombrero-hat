@@ -1,0 +1,14 @@
+(module CAPC1005X55 (layer F.Cu)
+    
+  (pad 0 smd rect
+    (at -0.65 0.0 0.0)
+    (size 0.9 0.7)
+    (layers F.Cu F.Mask F.Paste))  
+  (pad 1 smd rect
+    (at 0.65 0.0 0.0)
+    (size 0.9 0.7)
+    (layers F.Cu F.Mask F.Paste))  
+  (fp_line (start -1.5 -0.5) (end -1.5 0.5) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -1.5 0.5) (end 1.5 0.5) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 1.5 0.5) (end 1.5 -0.5) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 1.5 -0.5) (end -1.5 -0.5) (layer F.CrtYd) (width 0.05)))

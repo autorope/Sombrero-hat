@@ -1,0 +1,37 @@
+(module pin-header-pkg$3 (layer F.Cu)
+    
+  (pad 0 thru_hole circle
+    (at 0.0 -5.08 0.0)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu F.Mask))  
+  (pad 1 thru_hole circle
+    (at 0.0 -2.54 0.0)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu F.Mask))  
+  (pad 2 thru_hole circle
+    (at 0.0 0.0 0.0)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu F.Mask))  
+  (pad 3 thru_hole circle
+    (at 0.0 2.54 0.0)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu F.Mask))  
+  (pad 4 thru_hole circle
+    (at 0.0 5.08 0.0)
+    (size 1.7 1.7)
+    (drill 1.0)
+    (layers *.Cu F.Mask))  
+  (fp_text user ">REF" (at 0.0 -6.85 0.0) (layer F.SilkS)
+    (effects (font (size 0.705555555555564 0.705555555555564) (thickness 0.10)) (justify )))  
+  (fp_line (start -1.27 -7.35) (end -1.27 6.35) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -1.27 6.35) (end 1.27 6.35) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 1.27 6.35) (end 1.27 -7.35) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start 1.27 -7.35) (end -1.27 -7.35) (layer F.CrtYd) (width 0.05))  
+  (fp_line (start -1.27 -7.35) (end -1.27 6.35) (layer B.CrtYd) (width 0.05))  
+  (fp_line (start -1.27 6.35) (end 1.27 6.35) (layer B.CrtYd) (width 0.05))  
+  (fp_line (start 1.27 6.35) (end 1.27 -7.35) (layer B.CrtYd) (width 0.05))  
+  (fp_line (start 1.27 -7.35) (end -1.27 -7.35) (layer B.CrtYd) (width 0.05)))

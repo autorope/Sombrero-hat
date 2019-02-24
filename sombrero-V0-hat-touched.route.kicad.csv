@@ -1,0 +1,18 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"U2";"SOP65P640X110-28N";1;"";;;
+2;"D1,D0,D2";"LEDSC16080X80";3;"";;;
+3;"U0";"QFN50P300X300X100-16";1;"";;;
+4;"R4,R0,R1,R2,R3,R5,R6,R7,R8";"RESC1005X35";9;"";;;
+5;",,,";"mounting-hole-pkg";4;"";;;
+6;"C0,C1,C3,C5";"CAPC1005X55";4;"";;;
+7;",";"XT-60-female-pkg";2;"";;;
+8;"";"pin-header-pkg$3";1;"";;;
+9;"";"pin-header-pkg$4";1;"";;;
+10;"U1";"d-pak-5-pkg";1;"";;;
+11;"";"pin-header-pkg$2";1;"";;;
+12;"S0";"SW-JS102011SAQN-pkg";1;"";;;
+13;"C2,C4";"CAPC3216X160";2;"";;;
+14;",";"pin-header-pkg";2;"";;;
+15;"L0";"INDM560520X300";1;"";;;
+16;"";"raspi-3B+-pkg";1;"";;;
+17;",";"HOLE";2;"";;;
