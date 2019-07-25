@@ -11,6 +11,8 @@ This is the board files for the Sombrero hat.  The Sombrero hat should just work
 * GPIO.2 - BCM[21]
 * Enable BCM [26]
 
-The most important one, is that the hat has an enable pin - this has to be pulled low in order for the car to work.  This is always a nice feature for all robots as it can act as a kill switch.  The LEDs need to be driven low as well in order to work. 
+The most important one, is that the hat has an enable pin - this has to be pulled low in order for the car to work.  This is always a nice feature for all robots as it can act as a kill switch.  The LEDs need to be driven low as well in order to work.
+
+Ths Sombrero buck converter is a 3A converter and will work with all Rasberry Pis including the pi4
 
 For more information on the hat watch this [video](https://youtu.be/vuAXdrtNjpk)
